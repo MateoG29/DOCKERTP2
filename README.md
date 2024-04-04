@@ -2,11 +2,16 @@
 
 ## But du TP
 Ce TP est une étude de  la solution CI/CD (Intégration Continue et Déploiement Continu) avec Flask, GitHub Actions et Azure Web Apps. Il inclut un pipeline d'automatisation pour tester, construire et déployer une application web Python basique.
-##Contenu
-[Fonctionnalités](#Fonctionnalités)
-Etapes de configuration
-Déploiement et démontration
 
+##Contenu
+
+1.[Fonctionnalités](#Fonctionnalités)
+
+2.[Configuration](#Configuration)
+
+3.[Déploiement](#Déploiement)
+
+4.[Conclusion](#Conclusion)
 ## Fonctionnalités
 - **Flask Web App** : Un serveur web simple fonctionnant sous Python.
 - **Tests Automatisés** : Utilisation de `pytest` pour exécuter des tests automatisés lors de chaque `push`.
