@@ -1,4 +1,4 @@
-# DevOps TP2 - Continuous Integration and Deployment
+# DevOps TP2 - Réalisation d’une pipeline de CI/CD
 
 ## Overview
 Ce projet est une démonstration simple du processus de CI/CD (Intégration Continue et Déploiement Continu) utilisant Flask, GitHub Actions et Azure Web Apps. Il inclut un pipeline d'automatisation pour tester, construire et déployer une application web Python basique.
