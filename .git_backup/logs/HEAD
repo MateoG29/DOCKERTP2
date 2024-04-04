@@ -1,0 +1,23 @@
+0000000000000000000000000000000000000000 2e598c1d600fad9817f3ebb041bc19ca227c49e2 Ubuntu <adminmg@VMFLASK.eevxf4yrmguu1j0ygillwlwdec.bx.internal.cloudapp.net> 1712146321 +0000	clone: from https://github.com/MateoG29/DOCKERTP2
+2e598c1d600fad9817f3ebb041bc19ca227c49e2 5b0b1fe3466387983256a84b7c61c0b59724f816 Ubuntu <adminmg@VMFLASK.eevxf4yrmguu1j0ygillwlwdec.bx.internal.cloudapp.net> 1712149054 +0000	commit: V1 TP2
+5b0b1fe3466387983256a84b7c61c0b59724f816 5b0b1fe3466387983256a84b7c61c0b59724f816 Mateo <mgueguen.ledantec@gmail.com> 1712154885 +0000	checkout: moving from main to V2
+5b0b1fe3466387983256a84b7c61c0b59724f816 7181e466cedb5fcfb34cfa97fec7c810e815732b Mateo <mgueguen.ledantec@gmail.com> 1712215266 +0000	commit: Version 2 test
+7181e466cedb5fcfb34cfa97fec7c810e815732b 021f158ce8bfeeb9b762d744eaedbe725ed7ea7a Mateo <mgueguen.ledantec@gmail.com> 1712215387 +0000	pull origin main: Merge made by the 'recursive' strategy.
+021f158ce8bfeeb9b762d744eaedbe725ed7ea7a 108a0be874d235932d5b918f82dc810cc5dd9526 Mateo <mgueguen.ledantec@gmail.com> 1712216205 +0000	commit: Vestion de fin
+108a0be874d235932d5b918f82dc810cc5dd9526 5686cb882e03e078879897d07c3b7deccf1e8e62 Mateo <mgueguen.ledantec@gmail.com> 1712216562 +0000	commit: V4
+5686cb882e03e078879897d07c3b7deccf1e8e62 245d771576bdec9a8415923124ff2e90f86288e4 Mateo <mgueguen.ledantec@gmail.com> 1712217981 +0000	commit: V3
+245d771576bdec9a8415923124ff2e90f86288e4 245d771576bdec9a8415923124ff2e90f86288e4 Mateo <mgueguen.ledantec@gmail.com> 1712221922 +0000	reset: moving to HEAD
+245d771576bdec9a8415923124ff2e90f86288e4 59277a0c63e3ddb519f97b1ffdef195678f66624 Mateo <mgueguen.ledantec@gmail.com> 1712221934 +0000	pull origin main --rebase: checkout 59277a0c63e3ddb519f97b1ffdef195678f66624
+59277a0c63e3ddb519f97b1ffdef195678f66624 20edd342facc9d37d6e34169643444ab7a55906b Mateo <mgueguen.ledantec@gmail.com> 1712221934 +0000	pull origin main --rebase: Version 2 test
+20edd342facc9d37d6e34169643444ab7a55906b f1dcd041ea05dde20dc44f7e84a43bcd895ce60b Mateo <mgueguen.ledantec@gmail.com> 1712221934 +0000	pull origin main --rebase: ci.yml
+f1dcd041ea05dde20dc44f7e84a43bcd895ce60b bef0a6784e4038f441434914832965c37df8e75d Mateo <mgueguen.ledantec@gmail.com> 1712221934 +0000	pull origin main --rebase: Add or update the Azure App Service build and deployment workflow config
+bef0a6784e4038f441434914832965c37df8e75d 203db98ceaf91d840dead346b698f312cd9b2b85 Mateo <mgueguen.ledantec@gmail.com> 1712221934 +0000	pull origin main --rebase: main.yml
+203db98ceaf91d840dead346b698f312cd9b2b85 329e069a32ec287d2eb3b227c965268e1c6b6efe Mateo <mgueguen.ledantec@gmail.com> 1712221934 +0000	pull origin main --rebase: Update main.yml
+329e069a32ec287d2eb3b227c965268e1c6b6efe 5374437d62578a58abd3d803062d9fae8adf4069 Mateo <mgueguen.ledantec@gmail.com> 1712221934 +0000	pull origin main --rebase: Vestion de fin
+5374437d62578a58abd3d803062d9fae8adf4069 059001ff4857e79b2b4f6760156f79e8cfb2b75a Mateo <mgueguen.ledantec@gmail.com> 1712221934 +0000	pull origin main --rebase: V4
+059001ff4857e79b2b4f6760156f79e8cfb2b75a afbee90b36d361ebd62c1c3a7aa40e3818557820 Mateo <mgueguen.ledantec@gmail.com> 1712221934 +0000	pull origin main --rebase: V3
+afbee90b36d361ebd62c1c3a7aa40e3818557820 afbee90b36d361ebd62c1c3a7aa40e3818557820 Mateo <mgueguen.ledantec@gmail.com> 1712221934 +0000	rebase finished: returning to refs/heads/V2
+afbee90b36d361ebd62c1c3a7aa40e3818557820 59277a0c63e3ddb519f97b1ffdef195678f66624 Mateo <mgueguen.ledantec@gmail.com> 1712221979 +0000	reset: moving to origin/main
+59277a0c63e3ddb519f97b1ffdef195678f66624 906b3e98135834d66aabdb279297d1ff1e6cbcf4 Mateo <mgueguen.ledantec@gmail.com> 1712224999 +0000	commit: Update app.py version final
+906b3e98135834d66aabdb279297d1ff1e6cbcf4 0000000000000000000000000000000000000000 Mateo <mgueguen.ledantec@gmail.com> 1712225196 +0000	Branch: renamed refs/heads/V2 to refs/heads/main
+0000000000000000000000000000000000000000 906b3e98135834d66aabdb279297d1ff1e6cbcf4 Mateo <mgueguen.ledantec@gmail.com> 1712225196 +0000	Branch: renamed refs/heads/V2 to refs/heads/main
