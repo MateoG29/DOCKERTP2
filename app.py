@@ -33,7 +33,7 @@ def hello():
         </style>
     </head>
     <body>
-        Bonjour!
+        Test 1
     </body>
     </html>
     """)
