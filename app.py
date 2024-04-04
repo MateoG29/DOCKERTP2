@@ -9,7 +9,7 @@ def hello():
     <!doctype html>
     <html>
     <head>
-        <title>ELVIN!</title>
+        <title>DevOps-TP2</title>
         <style>
             @keyframes backgroundChange {
                 0%   {background-color: blue;}
@@ -33,7 +33,7 @@ def hello():
         </style>
     </head>
     <body>
-        Test 1
+        Test 11930
     </body>
     </html>
     """)
