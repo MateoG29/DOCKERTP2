@@ -5,19 +5,19 @@ Ce TP est une étude de  la solution CI/CD (Intégration Continue et Déploiemen
 
 ##Contenu
 
-1.[Fonctionnalités](#Fonctionnalités)
+[Fonctionnalités](#Fonctionnalités)
+[Mise en place](#mise-en-place)
+[Configuration](#Configuration)
+[Déploiement](#Déploiement)
+[Conclusion](#Conclusion)
 
-2.[Configuration](#Configuration)
-
-3.[Déploiement](#Déploiement)
-
-4.[Conclusion](#Conclusion)
 ## Fonctionnalités
 - **Flask Web App** : Un serveur web simple fonctionnant sous Python.
 - **Tests Automatisés** : Utilisation de `pytest` pour exécuter des tests automatisés lors de chaque `push`.
 - **GitHub Actions** : Workflow configuré pour l'intégration et le déploiement continus.
 - **Azure Web Apps** : Hébergement du service web Flask sur Azure.
 
+## Mise en place
 ## Configuration
 La configuration du CI/CD est gérée via `.github/workflows/main.yml`, qui définit les étapes du pipeline :
 
@@ -28,6 +28,10 @@ La configuration du CI/CD est gérée via `.github/workflows/main.yml`, qui déf
 
 ## Déploiement
 Les modifications poussées sur la branche `main` déclenchent le workflow CI/CD qui déploie automatiquement l'application sur Azure.
+
+
+##Conclusion
+
 
 ## Contributions
 Les contributions sont les bienvenues. Pour proposer des modifications, veuillez créer une `pull request`.
