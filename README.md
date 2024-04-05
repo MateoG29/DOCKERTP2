@@ -36,16 +36,16 @@ Ce TP est une étude de  la solution CI/CD (Intégration Continue et Déploiemen
      2. Dans ```Deployment Center```, puis ```Settings```. Vous devez lié votre compte GitHub. Vous pourrez ensuite choisir quel Repository utiliser ici ```DevOps-TP2``` et quel branch viser, ici ```main```.
      3. Une fois lié, il vous faut ajouter un ```Secret```. Dans ```Settings```, ```Secrets and variables``` puis ```Actions```. Vous allez faire ```New repository secret```. Nommer ce ```New repository secret``` ```AZURE_CREDENTIALS```.
      4. Depuis votre machine vous devez créer des ID Azure avec les commandes ce dessous.
-             1. curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
-             2. az login --use-device-code, vous aurez un lien web et un mot de passe. Coller le mot de passe sur le site web.
-             3. az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/entrer-le-code-de-votre-id"
+             1. ```curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash```
+             2. ```az login --use-device-code```, vous aurez un lien web et un mot de passe. Coller le mot de passe sur le site web.
+             3. ```az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/entrer-le-code-de-votre-id"```
      5. Vous allez avoir plusieur id à remplir sous le format suivant :
-         {
+        ``` {
               "clientSecret":  "votre-password-id",
               "subscriptionId":  "votre-id",
               "tenantId":  "votre-tenat",
               "clientId":  "votre-appID"
-          }
+          }```
      6. Coller ce script dans Secret*.
 4. La mise en place est terminer dirigez vous vers ```Actions``` pour voir que voter WORKFLOW vient de remonter et s'execute.
 
