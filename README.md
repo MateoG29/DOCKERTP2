@@ -31,10 +31,17 @@ Ce TP est une étude de  la solution CI/CD (Intégration Continue et Déploiemen
      6. Ensuite, créer le lien distant : ```git remote add origin https://github.com/votre-url.git```
      7. Maintenant, envoyer votre commit vers votre lien distant, ```git push origin main```. ( Par la suite vous devrez [Continuer les commits](#continuer-les-commits) pour faire évoluer votre sites) 
      8.Retrouver le contenu de votre dossier sur votre GitHub.
-3. 
+3. Création du lien entre GitHub et WebApp.
+     1. Depuis l'interface Azure créer une webapp. Il est important de choisir python en language pour votre webapp.
+     2. Dans ```Deployment Center```, puis ```Settings```. Vous devez lié votre compte GitHub. Vous pourrez ensuite choisir quel Repository utiliser ici ```DevOps-TP2``` et quel branch viser, ici ```main```.
 
 ## Continuer les commits
-
+Voici le commande à garder en tête pour continuer le projet.
+1. ```vim app.py```
+2. ```git add .```
+3. ```git status```
+4. ```git commit -m "nom/commit"```
+5. ```git push origin main```
 
 ## Configuration
 La configuration du CI/CD est gérée via `.github/workflows/main.yml`, qui définit les étapes du pipeline :
