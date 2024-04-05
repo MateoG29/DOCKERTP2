@@ -46,7 +46,8 @@ Ce TP est une étude de  la solution CI/CD (Intégration Continue et Déploiemen
               "subscriptionId":  "votre-id",
               "tenantId":  "votre-tenat",
               "clientId":  "votre-appID"
-          }```
+        }
+        ```
      6. Coller ce script dans Secret*.
 4. La mise en place est terminer dirigez vous vers ```Actions``` pour voir que voter WORKFLOW vient de remonter et s'execute.
 
