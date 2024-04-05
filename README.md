@@ -40,7 +40,8 @@ Ce TP est une étude de  la solution CI/CD (Intégration Continue et Déploiemen
              2. ```az login --use-device-code```, vous aurez un lien web et un mot de passe. Coller le mot de passe sur le site web.
              3. ```az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/entrer-le-code-de-votre-id"```
      5. Vous allez avoir plusieur id à remplir sous le format suivant :
-        ``` {
+        ```
+        {
               "clientSecret":  "votre-password-id",
               "subscriptionId":  "votre-id",
               "tenantId":  "votre-tenat",
